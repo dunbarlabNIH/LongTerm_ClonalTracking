@@ -1,6 +1,8 @@
 # LongTerm_ClonalTracking
 This code and data was used to generate the figures for the Long-Term Tracking of Hematopoietic Clonal Dynamics and Mutations in Nonhuman Primate Undergoing Transplantation of Lentivirally-Transduced Hematopoeitic Stem and Progenitor Cells BJH paper by the Dunbar Lab at the National Institutes of Health.
 
+After updating directories, you should be able to use the pipeline after downloading the repository.
+
 All results can be by running the barcodeanalysis.R script (main script) after properly configuring the loaders. Loaders are monkey specific, this is where you specify the counts and key (samples of interest) files. In the loader, also ensure that the counts matrix has the right number of rows per column. Imagine a matrix with the number of columns as cell types (T, B, Mono, Gr) and number of rows for each unique timepoint. If a cell type does not have a timepoint that another or multiple cell types have, then put an NA in that position.
 
 Update the directories in both the main script and loaders.
