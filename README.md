@@ -11,7 +11,7 @@ For the unique clone number graphs in Figure 2 and autocorrelation graphs in Fig
 
 Source folder contains scripts performing calculations/graphing are referred to by the main script and loaders.
 
-Results folder is empty, and this is where your outputs from the main script will be stored.
+Results folder is empty, and this is where your outputs from the main script will be stored. Results.txt is just to have github have the folder. Can delete once repository is downloaded.
 
 Supplemental Figure 2 data and code is provided. It is separate from the main script as well. Simply update the directories in the script for results.
 
